@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/lyt_tree_root"
+    android:layout_height="@dimen/dimen_dp_45"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="@dimen/dimen_dp_45"
+        android:layout_height="@dimen/dimen_dp_45">
+
+        <ImageView
+            android:id="@+id/iv_tree_iconbg"
+            android:layout_width="@dimen/dimen_dp_45"
+            android:layout_height="@dimen/dimen_dp_45"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_treeview_nomal"
+            android:src="@drawable/ic_treeview_onlyone"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/iv_tree_icon"
+            android:layout_width="@dimen/dimen_dp_20"
+            android:layout_height="@dimen/dimen_dp_20"
+            android:padding="@dimen/dimen_dp_5"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_treeview_close"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_tree_title"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dimen_dp_45"
+        android:layout_weight="2"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="#666"
+        android:textSize="@dimen/dimen_sp_15"
+        tools:ignore="SelectableText" />
+</LinearLayout>
