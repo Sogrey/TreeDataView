@@ -1,6 +1,7 @@
 # TreeDataView
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/009fcbed08124bb0991d431d4cb02de5)](https://www.codacy.com/app/Sogrey/TreeDataView?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Sogrey/TreeDataView&amp;utm_campaign=Badge_Grade)
+[![CodeFactor](https://www.codefactor.io/repository/github/sogrey/treedataview/badge)](https://www.codefactor.io/repository/github/sogrey/treedataview)
 
 树级数据展示 id-pid
 
